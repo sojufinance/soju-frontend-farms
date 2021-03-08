@@ -62,8 +62,10 @@ const Home: React.FC = () => {
           {TranslateString(576, 'Soju Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Prepare your glasses for some SOJU! Free SOJU for all!')}</Text>
-        <Text>{` Rewards will start at block 5559000 at March 10 2021 13:00 UTC`}</Text>
-        <a href='https://bscscan.com/block/countdown/5559000' target="_blank" rel="noreferrer">See countdown</a>
+        <br/>
+        <Text>{` Presale of SOJU will start at March 09 2021 12:00 UTC on `}<a style={{textDecorationLine: "underline"}} href="https://app.bounce.finance/" target="_blank" rel="noreferrer">Bounce</a></Text>
+        <br/>
+        <Text>{` Rewards will start in `} <a style={{textDecorationLine: "underline"}} href='https://bscscan.com/block/countdown/5559000' target="_blank" rel="noreferrer">block 5559000</a> {` on March 10 2021 13:00 UTC`}</Text>
       </Hero>
       <div>
         <Cards>
