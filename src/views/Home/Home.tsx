@@ -61,7 +61,7 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Soju Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'Prepare your glasses for some SOJU! Free SOJU for all!')}</Text>
+        <Text>{TranslateString(578, 'Prepare your glass for some SOJU! Free SOJU for all!')}</Text>
         <br/>
         <Text>{` Presale of SOJU will start at March 09 2021 12:00 UTC on `}<a style={{textDecorationLine: "underline"}} href="https://app.bounce.finance/" target="_blank" rel="noreferrer">Bounce</a></Text>
         <br/>
