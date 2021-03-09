@@ -63,7 +63,7 @@ const Home: React.FC = () => {
         </Heading>
         <Text>{TranslateString(578, 'Prepare your glass for some SOJU! Free SOJU for all!')}</Text>
         <br/>
-        <h1>{` 1st pre-sale of SOJU (1 BNB = 50 SOJU) has started, and will last until at March 09 2021 16:00 UTC on `}<a style={{textDecorationLine: "underline"}} href="https://app.bounce.finance/fixed-swap/3475" target="_blank" rel="noreferrer">Bounce</a></h1>
+        <h1><a style={{textDecorationLine: "underline"}} href="https://app.bounce.finance/fixed-swap/3475" target="_blank" rel="noreferrer">{` 1st pre-sale of SOJU (1 BNB = 50 SOJU) has started on Bounce. Click here to buy!`}</a></h1>
         <br/>
         <Text>{` 2nd pre-sale of SOJU (1 BNB = 45 SOJU) will start at March 10 2021 4:00 UTC `}</Text>
         <br/>
