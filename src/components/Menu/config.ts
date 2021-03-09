@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://medium.com',
+        href: 'https://medium.com/@SojuFinance',
       },
     ],
   },
